@@ -1,14 +1,23 @@
 :root {
-  --bg: #eef6f0;
-  --panel: #fcfffc;
-  --panel-2: #f4fbf5;
-  --text: #122018;
-  --muted: #607166;
-  --line: #d7e6db;
-  --green: #3fa96b;
-  --green-dark: #20593b;
-  --lime: #c8ff8a;
-  --warning: #58d68d;
+  --bg: #edf4ee;
+
+  --panel: #ffffff;
+
+  --panel-2: #f3f8f3;
+
+  --text: #152018;
+
+  --muted: #5f7064;
+
+  --line: #d6e2d8;
+
+  --green: #2fa35a;
+
+  --green-dark: #1d6b3c;
+
+  --lime: #d9ff9f;
+
+  --warning: #2fa35a;
 }
 
 * { box-sizing: border-box; }
