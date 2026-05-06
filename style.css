@@ -191,7 +191,7 @@ p {
 }
 
 .page-header {
-  padding: 58px 58px 38px;
+  padding: 72px 80px 36px;
 }
 
 .page-header h1 {
@@ -199,7 +199,7 @@ p {
 }
 
 .content {
-  padding: 0 58px 58px;
+  padding: 0 60px 72px;
 }
 
 .module-grid {
