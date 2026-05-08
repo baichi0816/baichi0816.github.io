@@ -22,17 +22,51 @@
     <h1>Final Project</h1>
   </section>
   <section class="content">
-    <p>
-      This page is reserved for the final HCI project, including concept,
-      design rationale, prototype demo, presentation slides, and video link.
-    </p>
-    <div class="module-grid">
-      <div class="module"><h3>Concept</h3><p>A human-centered interactive system designed for a specific post-pandemic need.</p></div>
-      <div class="module"><h3>Interaction</h3><p>Core user flow, interface structure, and key interaction decisions.</p></div>
-      <div class="module"><h3>Demo</h3><p>Final video, prototype screenshots, and presentation materials can be added here.</p></div>
+  <p>
+    This page showcases the final HCI project, including concept, interaction, and demo highlights.
+    Click each section header to expand or collapse the details.
+  </p>
+
+  <div class="project-accordion">
+    <div class="accordion-item">
+      <button class="accordion-header">Concept</button>
+      <div class="accordion-body">
+        <p>
+          Our project is <strong>“An Intelligent Study Material Management System”</strong>, designed to help students efficiently organize and retrieve scattered course materials. 
+          Target users are senior undergraduates and postgraduates handling multiple courses. The system addresses problems like finding specific knowledge points, avoiding manual organization, and preserving privacy through local AI processing.
+        </p>
+      </div>
     </div>
-    <div class="notice">Placeholder: Add final demo video link and project images before submission.</div>
-  </section>
+
+    <div class="accordion-item">
+      <button class="accordion-header">Interaction</button>
+      <div class="accordion-body">
+        <p>The system features three main interaction paths:</p>
+        <ul>
+          <li><strong>Ingestion:</strong> Drag & drop files → Process & Categorize → AI auto-tags and updates file cards.</li>
+          <li><strong>Browse & Manage:</strong> Scan tag cloud → browse file cards → read AI summaries → add manual tags.</li>
+          <li><strong>Semantic Query:</strong> Enter natural-language questions → system retrieves documents → RAG generates answers in chat window.</li>
+        </ul>
+        <p>These paths form a simple loop: upload → explore → ask, emphasizing recognition over recall.</p>
+      </div>
+    </div>
+
+    <div class="accordion-item">
+      <button class="accordion-header">Demo</button>
+      <div class="accordion-body">
+        <p>Key features demonstrated in the prototype include:</p>
+        <ul>
+          <li>Tag Cloud Visualization: overview of knowledge coverage.</li>
+          <li>Natural Language Semantic Query (RAG): direct answers without remembering filenames.</li>
+          <li>Manual Tag Supplementation: users can customize organization alongside AI tags.</li>
+          <li>Content Layering: Tag cloud → File cards → Chat query for detailed answers.</li>
+          <li>Local AI Models: preserves privacy and supports reproducible retrieval.</li>
+        </ul>
+        <p>Evaluation showed high usability, low learning cost, and identified actionable improvements like delete confirmation.</p>
+      </div>
+    </div>
+  </div>
+</section>
 </main>
 
   <footer>© 2026 Jintian YAN · ARIN5301 HCI Portfolio</footer>
